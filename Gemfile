@@ -38,6 +38,10 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+gem 'devise', '3.0.0.rc'
+gem 'protected_attributes'
+# gem 'strong_parameters'
+# gem 'rb-readline'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
